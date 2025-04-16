@@ -68,6 +68,6 @@ def main():
         sys.exit()
     
     enc_text = cc(shfl, ofs)
-    print(fmt_txt(enc_text, every))
+    print(fmt_txt(enc_text, every),';',sep="")
 
 main()
